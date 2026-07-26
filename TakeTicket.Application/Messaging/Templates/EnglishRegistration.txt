@@ -1,0 +1,8 @@
+﻿Dear {Name},
+
+Your trip booking has been successfully registered.
+
+Trip Start: {StartDate}
+Trip End: {FinishDate}
+
+We are happy to serve you 🌸

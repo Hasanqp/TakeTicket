@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddUserForm.Text" xml:space="preserve">
+    <value>إضافة/تعديل مستخدم</value>
+  </data>
+  <data name="SecurityQuestionBestFriend" xml:space="preserve">
+    <value>أفضل صديق؟</value>
+  </data>
+  <data name="buttonSave.Text" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="buttonSaveAndClose.Text" xml:space="preserve">
+    <value>حفظ وغلق</value>
+  </data>
+  <data name="checkBoxAccessBus.Text" xml:space="preserve">
+    <value>باص</value>
+  </data>
+  <data name="checkBoxAccessCustomer.Text" xml:space="preserve">
+    <value>راكب</value>
+  </data>
+  <data name="checkBoxAccessUsers.Text" xml:space="preserve">
+    <value>مستخدم</value>
+  </data>
+  <data name="checkBoxAdd.Text" xml:space="preserve">
+    <value>اضافة</value>
+  </data>
+  <data name="checkBoxAdmin.Text" xml:space="preserve">
+    <value>المدير</value>
+  </data>
+  <data name="checkBoxAdminAssistant.Text" xml:space="preserve">
+    <value>مساعد المدير</value>
+  </data>
+  <data name="checkBoxBuses.Text" xml:space="preserve">
+    <value>الباصات</value>
+  </data>
+  <data name="checkBoxCustomers.Text" xml:space="preserve">
+    <value>الركاب</value>
+  </data>
+  <data name="checkBoxDelete.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="checkBoxDispatcher.Text" xml:space="preserve">
+    <value>منسق الرحلات</value>
+  </data>
+  <data name="checkBoxEdit.Text" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="checkBoxExport.Text" xml:space="preserve">
+    <value>تصدير</value>
+  </data>
+  <data name="checkBoxHome.Text" xml:space="preserve">
+    <value>الرئيسية</value>
+  </data>
+  <data name="checkBoxLineSupervisor.Text" xml:space="preserve">
+    <value>مشرف الخط</value>
+  </data>
+  <data name="checkBoxSearch.Text" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="checkBoxSettings.Text" xml:space="preserve">
+    <value>الإعدادات</value>
+  </data>
+  <data name="checkBoxSystemRecords.Text" xml:space="preserve">
+    <value>سجل الحركة</value>
+  </data>
+  <data name="checkBoxUsers.Text" xml:space="preserve">
+    <value>المستخدمين</value>
+  </data>
+  <data name="groupBoxPermissionsQuickAccess.Text" xml:space="preserve">
+    <value>🎯 الأذونات / الوصول السريع</value>
+  </data>
+  <data name="groupBoxPermissionsStandardOperations.Text" xml:space="preserve">
+    <value>✨ الأذونات / العمليات القياسية</value>
+  </data>
+  <data name="groupBoxPermissionsTabs.Text" xml:space="preserve">
+    <value>📋 الأذونات/علامات التبويب</value>
+  </data>
+  <data name="groupBoxRecoveryInformation.Text" xml:space="preserve">
+    <value>🔐 بيانات/إستعادة الحساب</value>
+  </data>
+  <data name="groupBoxResponsibilityAuthorities.Text" xml:space="preserve">
+    <value>💼 المسؤولية / الصلاحيات</value>
+  </data>
+  <data name="groupBoxUserInformation.Text" xml:space="preserve">
+    <value>👤 معلومات عن المستخدم</value>
+  </data>
+  <data name="labelAnswer.Text" xml:space="preserve">
+    <value>الجواب</value>
+  </data>
+  <data name="labelEmail.Text" xml:space="preserve">
+    <value>البريد الإلكتروني</value>
+  </data>
+  <data name="labelFullName.Text" xml:space="preserve">
+    <value>الإسم الكامل</value>
+  </data>
+  <data name="labelPassword.Text" xml:space="preserve">
+    <value>كلمة السر</value>
+  </data>
+  <data name="labelPhoneNumber.Text" xml:space="preserve">
+    <value>رقم الهاتف</value>
+  </data>
+  <data name="labelRecveryQuestion.Text" xml:space="preserve">
+    <value>سؤال الإستعادة</value>
+  </data>
+  <data name="labelSub.Text" xml:space="preserve">
+    <value>أدخل بيانات المستخدم الجديد وجميع صلاحياته</value>
+  </data>
+  <data name="labelTitle.Text" xml:space="preserve">
+    <value>إضافة / تعديل مستخدم</value>
+  </data>
+  <data name="labelUserName.Text" xml:space="preserve">
+    <value>إسم المستخدم</value>
+  </data>
+  <data name="SecurityQuestionFirstSchool" xml:space="preserve">
+    <value>اسم أول مدرسة؟</value>
+  </data>
+  <data name="SecurityQuestionMotherName" xml:space="preserve">
+    <value>اسم الأم؟</value>
+  </data>
+  <data name="AddUserDetails" xml:space="preserve">
+    <value>تمت إضافة المستخدم {0}</value>
+  </data>
+  <data name="AddUserTitle" xml:space="preserve">
+    <value>إضافة مستخدم</value>
+  </data>
+  <data name="AnswerRequired" xml:space="preserve">
+    <value>الإجابة مطلوبة</value>
+  </data>
+  <data name="EditUserDetails" xml:space="preserve">
+    <value>تم تعديل المستخدم {0}</value>
+  </data>
+  <data name="EditUserTitle" xml:space="preserve">
+    <value>تعديل مستخدم</value>
+  </data>
+  <data name="PasswordRequired" xml:space="preserve">
+    <value>كلمة المرور مطلوبة</value>
+  </data>
+  <data name="PasswordTooShort" xml:space="preserve">
+    <value>كلمة المرور قصيرة</value>
+  </data>
+  <data name="RestartApplicationMessage" xml:space="preserve">
+    <value>⚠️ من فضلك أعد تشغيل البرنامج</value>
+  </data>
+  <data name="SecurityQuestionAnswerRequired" xml:space="preserve">
+    <value>سؤال الأمان والإجابة مطلوبان</value>
+  </data>
+  <data name="SecurityQuestionRequired" xml:space="preserve">
+    <value>اختر سؤال الأمان</value>
+  </data>
+  <data name="UserNameRequired" xml:space="preserve">
+    <value>اسم المستخدم مطلوب</value>
+  </data>
+</root>
