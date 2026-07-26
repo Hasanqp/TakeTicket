@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddSuccess" xml:space="preserve">
+    <value>Added successfully</value>
+  </data>
+  <data name="BackupFailed" xml:space="preserve">
+    <value>Could not complete backup because</value>
+  </data>
+  <data name="BackupSuccess" xml:space="preserve">
+    <value>Backup completed successfully</value>
+  </data>
+  <data name="BusFull" xml:space="preserve">
+    <value>Bus is full</value>
+  </data>
+  <data name="BusNotFound" xml:space="preserve">
+    <value>Bus not found</value>
+  </data>
+  <data name="ChooseRecoveryMethod" xml:space="preserve">
+    <value>Choose recovery method</value>
+  </data>
+  <data name="ConfirmMessageSuccess" xml:space="preserve">
+    <value>Confirmation sent successfully</value>
+  </data>
+  <data name="ConnectionStringInvalid" xml:space="preserve">
+    <value>Connection string is corrupted or unencrypted. Settings will open.</value>
+  </data>
+  <data name="ConnectionTextSaved" xml:space="preserve">
+    <value>Connection text saved successfully, please restart the application</value>
+  </data>
+  <data name="DatabaseSetupRequired" xml:space="preserve">
+    <value>Database setup is required first</value>
+  </data>
+  <data name="DbConnectionFailed" xml:space="preserve">
+    <value>Database connection failed. Settings will open.</value>
+  </data>
+  <data name="DeleteDialogCaption" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DeleteDialogText" xml:space="preserve">
+    <value>Are you sure you want to delete this? This action cannot be undone.</value>
+  </data>
+  <data name="DeleteSuccess" xml:space="preserve">
+    <value>Deleted successfully</value>
+  </data>
+  <data name="EditSuccess" xml:space="preserve">
+    <value>Updated successfully</value>
+  </data>
+  <data name="EmptyMessageCaption" xml:space="preserve">
+    <value>No Data</value>
+  </data>
+  <data name="EmptyMessageText" xml:space="preserve">
+    <value>The data grid is empty. This action cannot be performed.</value>
+  </data>
+  <data name="EnterAnswer" xml:space="preserve">
+    <value>Enter answer</value>
+  </data>
+  <data name="EnterRecoveryCode" xml:space="preserve">
+    <value>Enter recovery code</value>
+  </data>
+  <data name="EnterUsername" xml:space="preserve">
+    <value>Enter username</value>
+  </data>
+  <data name="ErrorGeneralMessage" xml:space="preserve">
+    <value>An unexpected error occurred. Please try again.</value>
+  </data>
+  <data name="ErrorTitle" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="FieldReqCaption" xml:space="preserve">
+    <value>Input Error</value>
+  </data>
+  <data name="FieldsReqText" xml:space="preserve">
+    <value>All fields marked with * are required. Please fill them in.</value>
+  </data>
+  <data name="ImageLoadError" xml:space="preserve">
+    <value>Error loading image</value>
+  </data>
+  <data name="InfoTitle" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="InvalidPassenger" xml:space="preserve">
+    <value>Invalid passenger</value>
+  </data>
+  <data name="NoDataToExport" xml:space="preserve">
+    <value>❌ No data to export</value>
+  </data>
+  <data name="NoSecurityQuestionForUser" xml:space="preserve">
+    <value>No security question for this user</value>
+  </data>
+  <data name="PassengerNameRequired" xml:space="preserve">
+    <value>Passenger name is required</value>
+  </data>
+  <data name="PassengerNotFound" xml:space="preserve">
+    <value>Passenger not found</value>
+  </data>
+  <data name="PhoneNumberRequired" xml:space="preserve">
+    <value>Phone number is required</value>
+  </data>
+  <data name="RecoveryCodeExpired" xml:space="preserve">
+    <value>Recovery code expired</value>
+  </data>
+  <data name="RecoveryCodeInvalid" xml:space="preserve">
+    <value>Invalid recovery code</value>
+  </data>
+  <data name="RecoveryCodeMethod" xml:space="preserve">
+    <value>Recovery Code</value>
+  </data>
+  <data name="RecoveryCodeNotRequested" xml:space="preserve">
+    <value>Recovery code was not requested</value>
+  </data>
+  <data name="RecoveryQuestionMethod" xml:space="preserve">
+    <value>Recovery Question</value>
+  </data>
+  <data name="RegistrationMessageSuccess" xml:space="preserve">
+    <value>Registration message sent successfully</value>
+  </data>
+  <data name="SecurityQuestionAnswerRequired" xml:space="preserve">
+    <value>Enter security question and answer</value>
+  </data>
+  <data name="SelectPassenger" xml:space="preserve">
+    <value>Select passenger</value>
+  </data>
+  <data name="ServerErrorCaption" xml:space="preserve">
+    <value>Server Connection Error</value>
+  </data>
+  <data name="ServerErrorText" xml:space="preserve">
+    <value>A server connection error occurred. Please try again later or check your system settings.</value>
+  </data>
+  <data name="ShowReDeleteFiledCaption" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ShowReDeleteFiledText" xml:space="preserve">
+    <value>Please select the entire row before deleting.</value>
+  </data>
+  <data name="TicketCreated" xml:space="preserve">
+    <value>Ticket created:</value>
+  </data>
+  <data name="TicketCreationFailed" xml:space="preserve">
+    <value>Failed to create ticket</value>
+  </data>
+  <data name="TicketNotFound" xml:space="preserve">
+    <value>Ticket not found</value>
+  </data>
+  <data name="TicketOpenFailed" xml:space="preserve">
+    <value>Failed to open the ticket</value>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>User not found</value>
+  </data>
+  <data name="UserVerifiedChooseRecoveryMethod" xml:space="preserve">
+    <value>User verified, choose recovery method</value>
+  </data>
+  <data name="VerifyUsernameFirst" xml:space="preserve">
+    <value>Verify username first</value>
+  </data>
+  <data name="WaitBeforeNewCode" xml:space="preserve">
+    <value>Wait one minute before requesting a new code</value>
+  </data>
+  <data name="WaitingListFull" xml:space="preserve">
+    <value>Waiting list is full</value>
+  </data>
+  <data name="WarningTitle" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="WrongAnswer" xml:space="preserve">
+    <value>Wrong answer</value>
+  </data>
+</root>

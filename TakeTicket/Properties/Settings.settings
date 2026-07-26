@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TakeTicket.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SqlServerString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Server=.\SQLEXPRESS;Database=TakeTicketDB;Trusted_Connection=True</Value>
+    </Setting>
+    <Setting Name="HideNotificationInterval" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="UserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Admin</Value>
+    </Setting>
+    <Setting Name="DataGridViewRowNo" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="CompanyName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Enter the company name here</Value>
+    </Setting>
+    <Setting Name="CompanyLogo" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Language" Type="System.String" Scope="User">
+      <Value Profile="(Default)">en</Value>
+    </Setting>
+    <Setting Name="DatabaseConfigured" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

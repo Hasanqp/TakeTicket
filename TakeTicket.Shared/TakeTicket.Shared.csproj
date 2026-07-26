@@ -1,0 +1,123 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+	  <AssemblyName>TakeTicket.Shared</AssemblyName>
+	  <RootNamespace>TakeTicket.Shared</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Localization\Forms\LoadingLocal\LoadingFormLocalization.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>LoadingFormLocalization.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Localization\Forms\NotificationLocal\NotificationFormLocalization.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>NotificationFormLocalization.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Localization\MessagesLocal.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MessagesLocal.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Localization\Services\CustomerServiceLocal\CustomerServiceLocal.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CustomerServiceLocal.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Localization\Services\MessagingServiceLocal\MessagingServiceLocal.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MessagingServiceLocal.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Localization\Services\TicketServiceLocal\TicketServiceLocal.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>TicketServiceLocal.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Localization\Forms\AboutLocal\AboutLocalization.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Forms\BusEnrollmentLocal\AddBusFormLocalization.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Forms\BusEnrollmentLocal\BusUserControlLocalization.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Forms\PassengerEnrollmentLocal\AddPassengerFormLocalization.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Forms\PassengerEnrollmentLocal\PassengerUserControlLocalization.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Forms\ExportSettingsLocal\ExportSettingsFormLocalization.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Forms\HomeLocal\HomeUserControlLocalization.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Forms\LoadingLocal\LoadingFormLocalization.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>LoadingFormLocalization.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Forms\MainLocal\MainLocalization.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Forms\MessageLocal\SendMessageFormLocalization.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Forms\NotificationLocal\NotificationFormLocalization.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>NotificationFormLocalization.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Forms\SettingsLocal\SettingsFormLocalization.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Forms\StartForm\StartFormLocalization.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Forms\SystemRecordsLocal\SystemRecordsUserControlLocalization.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Forms\UserLocal\AddUserFormLocalization.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Forms\UserLocal\ForgotPasswordFormLocalization.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Forms\UserLocal\LoginUserFormLocalization.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Forms\UserLocal\RestPasswordFormLocalization.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Forms\UserLocal\UsersUserControlLocalization.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\MessagesLocal.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>MessagesLocal.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Services\MessagingServiceLocal\MessagingServiceLocal.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MessagingServiceLocal.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Services\CustomerServiceLocal\CustomerServiceLocal.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CustomerServiceLocal.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Localization\Services\TicketServiceLocal\TicketServiceLocal.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TicketServiceLocal.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

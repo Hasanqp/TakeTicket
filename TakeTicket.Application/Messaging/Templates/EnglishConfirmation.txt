@@ -1,0 +1,5 @@
+﻿Dear {Name},
+
+This is a reminder that your trip starts on {StartDate}.
+
+Have a blessed journey 🌸

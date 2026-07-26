@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddSuccess" xml:space="preserve">
+    <value>تمت عملية الإضافة بنجاح</value>
+  </data>
+  <data name="BackupFailed" xml:space="preserve">
+    <value>لم نتمكن من إجراء عملية النسخ الاحتياطي بسبب</value>
+  </data>
+  <data name="BackupSuccess" xml:space="preserve">
+    <value>تم إجراء النسخ الاحتياطي بنجاح</value>
+  </data>
+  <data name="BusFull" xml:space="preserve">
+    <value>الباص ممتلئ</value>
+  </data>
+  <data name="BusNotFound" xml:space="preserve">
+    <value>الباص غير موجود</value>
+  </data>
+  <data name="ChooseRecoveryMethod" xml:space="preserve">
+    <value>اختر طريقة الاستعادة</value>
+  </data>
+  <data name="ConfirmMessageSuccess" xml:space="preserve">
+    <value>تم إرسال رسالة التأكيد بنجاح</value>
+  </data>
+  <data name="ConnectionStringInvalid" xml:space="preserve">
+    <value>نص الاتصال تالف أو غير مشفر، سيتم فتح الإعدادات</value>
+  </data>
+  <data name="ConnectionTextSaved" xml:space="preserve">
+    <value>تم حفظ نص الاتصال بنجاح، أعد تشغيل البرنامج لطفاً</value>
+  </data>
+  <data name="DatabaseSetupRequired" xml:space="preserve">
+    <value>يجب إعداد قاعدة البيانات أولاً</value>
+  </data>
+  <data name="DbConnectionFailed" xml:space="preserve">
+    <value>فشل الاتصال بقاعدة البيانات، سيتم فتح الإعدادات</value>
+  </data>
+  <data name="DeleteDialogCaption" xml:space="preserve">
+    <value>إجراء حذف</value>
+  </data>
+  <data name="DeleteDialogText" xml:space="preserve">
+    <value>هل أنت متأكد أنك تريد حذف هذا؟ لا يمكن استرداد البيانات.</value>
+  </data>
+  <data name="DeleteSuccess" xml:space="preserve">
+    <value>تمت عملية الإزالة بنجاح</value>
+  </data>
+  <data name="EditSuccess" xml:space="preserve">
+    <value>تمت عملية التعديل بنجاح</value>
+  </data>
+  <data name="EmptyMessageCaption" xml:space="preserve">
+    <value>لا يوجد بيانات</value>
+  </data>
+  <data name="EmptyMessageText" xml:space="preserve">
+    <value>تظهر شاشة شبكة البيانات فارغة ولا يمكن تنفيذ هذا الإجراء.</value>
+  </data>
+  <data name="EnterAnswer" xml:space="preserve">
+    <value>أدخل الإجابة</value>
+  </data>
+  <data name="EnterRecoveryCode" xml:space="preserve">
+    <value>أدخل كود الاستعادة</value>
+  </data>
+  <data name="EnterUsername" xml:space="preserve">
+    <value>أدخل اسم المستخدم</value>
+  </data>
+  <data name="ErrorGeneralMessage" xml:space="preserve">
+    <value>حدث خطأ غير متوقع، يرجى المحاولة مرة أخرى.</value>
+  </data>
+  <data name="ErrorTitle" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+  <data name="FieldReqCaption" xml:space="preserve">
+    <value>خطأ في الإدخال</value>
+  </data>
+  <data name="FieldsReqText" xml:space="preserve">
+    <value>جميع الحقول التي تحتوي على * مطلوبة. أدخلها ثم حاول مرة أخرى.</value>
+  </data>
+  <data name="ImageLoadError" xml:space="preserve">
+    <value>خطأ في تحميل الصورة</value>
+  </data>
+  <data name="InfoTitle" xml:space="preserve">
+    <value>معلومات</value>
+  </data>
+  <data name="InvalidPassenger" xml:space="preserve">
+    <value>العميل غير صالح</value>
+  </data>
+  <data name="NoDataToExport" xml:space="preserve">
+    <value>❌ لا توجد بيانات للتصدير</value>
+  </data>
+  <data name="NoSecurityQuestionForUser" xml:space="preserve">
+    <value>لا يوجد سؤال أمان لهذا المستخدم</value>
+  </data>
+  <data name="PassengerNameRequired" xml:space="preserve">
+    <value>اسم الراكب مطلوب</value>
+  </data>
+  <data name="PassengerNotFound" xml:space="preserve">
+    <value>الراكب غير موجود</value>
+  </data>
+  <data name="PhoneNumberRequired" xml:space="preserve">
+    <value>رقم الهاتف مطلوب</value>
+  </data>
+  <data name="RecoveryCodeExpired" xml:space="preserve">
+    <value>انتهت صلاحية الكود</value>
+  </data>
+  <data name="RecoveryCodeInvalid" xml:space="preserve">
+    <value>الكود غير صحيح</value>
+  </data>
+  <data name="RecoveryCodeMethod" xml:space="preserve">
+    <value>رمز الإستعادة</value>
+  </data>
+  <data name="RecoveryCodeNotRequested" xml:space="preserve">
+    <value>لم يتم طلب كود استعادة</value>
+  </data>
+  <data name="RecoveryQuestionMethod" xml:space="preserve">
+    <value>سؤال الإستعادة</value>
+  </data>
+  <data name="RegistrationMessageSuccess" xml:space="preserve">
+    <value>تم إرسال رسالة التسجيل بنجاح</value>
+  </data>
+  <data name="SecurityQuestionAnswerRequired" xml:space="preserve">
+    <value>أدخل سؤال الأمان والإجابة</value>
+  </data>
+  <data name="SelectPassenger" xml:space="preserve">
+    <value>اختر راكب</value>
+  </data>
+  <data name="ServerErrorCaption" xml:space="preserve">
+    <value>خطأ في الاتصال بالخادم</value>
+  </data>
+  <data name="ServerErrorText" xml:space="preserve">
+    <value>يبدو أنه حدث خطأ أثناء الاتصال بالخادم، حاول مرة أخرى لاحقًا أو قم بتغيير إعدادات النظام.</value>
+  </data>
+  <data name="ShowReDeleteFiledCaption" xml:space="preserve">
+    <value>إجراء حذف</value>
+  </data>
+  <data name="ShowReDeleteFiledText" xml:space="preserve">
+    <value>لكي يكون إجراء الحذف صحيحًا، يجب تحديد الصف بالكامل.</value>
+  </data>
+  <data name="TicketCreated" xml:space="preserve">
+    <value>تم إنشاء التذكرة:</value>
+  </data>
+  <data name="TicketCreationFailed" xml:space="preserve">
+    <value>فشل إنشاء التذكرة</value>
+  </data>
+  <data name="TicketNotFound" xml:space="preserve">
+    <value>لم يتم العثور على التذكرة</value>
+  </data>
+  <data name="TicketOpenFailed" xml:space="preserve">
+    <value>فشل فتح التذكرة</value>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>المستخدم غير موجود</value>
+  </data>
+  <data name="UserVerifiedChooseRecoveryMethod" xml:space="preserve">
+    <value>تم التحقق من المستخدم، اختر طريقة الاستعادة</value>
+  </data>
+  <data name="VerifyUsernameFirst" xml:space="preserve">
+    <value>قم بالتحقق من اسم المستخدم أولاً</value>
+  </data>
+  <data name="WaitBeforeNewCode" xml:space="preserve">
+    <value>انتظر دقيقة قبل طلب كود جديد</value>
+  </data>
+  <data name="WaitingListFull" xml:space="preserve">
+    <value>قائمة الاحتياط ممتلئة</value>
+  </data>
+  <data name="WarningTitle" xml:space="preserve">
+    <value>تحذير</value>
+  </data>
+  <data name="WrongAnswer" xml:space="preserve">
+    <value>الإجابة غير صحيحة</value>
+  </data>
+</root>

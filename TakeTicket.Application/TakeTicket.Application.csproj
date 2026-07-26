@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+	  <AssemblyName>TakeTicket.Application</AssemblyName>
+	  <RootNamespace>TakeTicket.Application</RootNamespace>	  
+	  <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Messaging\Templates\ArabicConfirmation.txt" />
+    <None Remove="Messaging\Templates\ArabicRegistration.txt" />
+    <None Remove="Messaging\Templates\EnglishConfirmation.txt" />
+    <None Remove="Messaging\Templates\EnglishRegistration.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Messaging\Templates\ArabicConfirmation.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Messaging\Templates\ArabicRegistration.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Messaging\Templates\RussianConfirmation.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Messaging\Templates\EnglishConfirmation.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Messaging\Templates\RussianRegistration.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Messaging\Templates\EnglishRegistration.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TakeTicket.Domain\TakeTicket.Domain.csproj" />
+    <ProjectReference Include="..\TakeTicket.Infrastructure\TakeTicket.Infrastructure.csproj" />
+    <ProjectReference Include="..\TakeTicket.Shared\TakeTicket.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
