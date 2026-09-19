@@ -313,6 +313,12 @@ namespace TakeTicket.Gui.UsersGui
             labelAccountInformation.Size =
                 new Size(160, 20);
 
+            labelConfirmPassword.Location =
+                new Point(212, 280);
+
+            labelRequiredUserName.Location =
+                new Point(178, 146);
+
             labelSubtitle.Size =
                 new Size(363, 40);
         }
